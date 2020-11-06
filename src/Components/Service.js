@@ -10,3 +10,23 @@ import axios from 'axios';
         console.log(err);
     })
 }
+
+export const addToDos=(data)=>{
+    return axios.post("https://jsonplaceholder.typicode.com/todos",data)
+    .then(res=>{
+        return res.data;
+    })
+    .catch(err=>{
+        console.log(err);
+    })
+}
+
+export const deleteToDos=(id)=>{
+    return axios.delete("https://jsonplaceholder.typicode.com/todos/id")
+    .then(res=>{
+        return res.data;
+    })
+    .catch(err=>{
+        console.log(err);
+    })
+}

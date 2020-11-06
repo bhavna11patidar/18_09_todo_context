@@ -9,7 +9,7 @@ export default function ViewToDo() {
       });
     }
     return (
-        <div className="container mt-5">   
+        <div className="container mt-5"> 
             <table className="table table-bordered">
                 <thead>
                     <tr>
