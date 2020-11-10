@@ -28,6 +28,9 @@ export default function Header() {
             <NavItem>
               <Link className="nav-link" to="/">View TODO</Link>
             </NavItem>
+            <NavItem>
+              <Link className="nav-link" to="/life-cycle-methods">Life Cycle Methods</Link>
+            </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
